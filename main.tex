@@ -1,0 +1,414 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{dirtytalk}
+\usepackage{float}
+\usepackage[a4paper, margin=1.3in]{geometry}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}
+}
+
+\setlength{\parskip}{1.5em}
+\renewcommand{\baselinestretch}{1.0}
+
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+
+\title{Growing Plants in Space}
+\subtitle{Essay for Space Technology II}
+\author{Eric Törn}
+\date{March 2019}
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/veggie-image-5.jpg}
+    \caption{
+        \textit{OutREDgeous lettuce grown in the Veggie module in 2014. Image from NASA \cite{veggie-image-5}}
+    }
+    \label{fig:x veggie-image-5}
+\end{figure}
+
+\newpage
+\section{Introduction}
+Agriculture on earth has existed for 10,000 years and has been refined into an extraordinary efficiency. We (as a human species) have learned to manipulate plants into giving bigger crops, growing faster, and being more resistant to stressors. In space however, agriculture is a new field that has only been going on for about 50 years, and we are still learning the fundamentals about how plants behave in this different environment.
+
+This essay will give a general introduction to space agriculture. The technical details will be kept to a minimum in order to not get bogged down into details. We will instead focus on ideas, principles, and historic milestones.
+
+We will see that while it's not easy, growing plants in space is an vital step towards long-term expeditions. If we are ever to travel to mars or colonize another planet, knowing how to effectively grow plants on spaceships and planets is essential.
+
+We will also see that while edible plants is the most important aspect, another aspect is that plants may provide positive psychological effects in a world which is so alien to us as humans.
+
+In section A, we discuss why space agriculture is worth spending time and resources on. In section B, we will look at the problems and challenges of space agriculture. In section C, we will look at important milestones in the history of growing plants in space. In section D, we will look towards the future and imagine what it might look like. In section E, we will conclude the essay with a summary.
+
+Disclaimer: It is hard to cover all the missions, studies and institutions within space botany. I apologize if I have left out anything important.
+
+\section{Why should we spend time and resources on space agriculture?}
+\say{\textit{If we are going to live in space for any extended period of time, not a camping trip to space, we have to be able to feed the astronauts, create atmospheres and purify water. The only way we know how to do this on Earth is based around plant biology.}} - Dr. Simon Gilroy, Astrobotanist and Professor of Botany at The Gilroy Lab (The University of Wisconsin) \cite{simon-gilroy-interview}.
+
+Lately, there have been many people and organizations interested in long-term expeditions. NASA wants to visit mars \cite{nasa-moon-to-mars}, SpaceX wants to send a crew to mars in 2024 \cite{spacex-mars}, and even United Arab Emirates has said they want to create a city on mars. \cite{arab-mars}
+
+Space expeditions is a hot topic right now, and space agriculture will be a key ingredient in it's success. 
+
+There are a few reasons for this:
+\begin{enumerate}
+    \item There is a limit to how much dried food can be brought on an expedition considering both weight and volume. Seeds and soil is less in both regards, and plants also create new seeds themselves.
+    \item High quantity in fresh plants provide an important nutritional content in human diet.
+    \item Plants could be an important part of sustainable life-support habitats, aiding in the regeneration of the atmosphere and removing humidity from the air \cite{melissa}.
+    \item It may prove important for psychological reasons \cite{tania-psychological}.
+\end{enumerate}
+
+But it's not only about making space expeditions and colonize planets, learning how to grow plants in space may also help us grow plants better on earth. For example, plant experiments on the ISS have led to the development of an air purification device which is useful in preventing mould and limiting hazardous bacteria \cite{bittersweet-ethylene}.
+
+\section{Challenges}
+
+Plants have existed on earth for almost a billion of years. That is a long time to evolve and get used to earth's diverse environments. Space, however, is a new environment that the first plant experienced only 50 years ago. Space has different stressors and this obviously provides it's challenges. 
+
+Plants simply cannot survive in space by itself. There is no oxygen (yes, plants breathe), little gravity, and no opportunity to take up nutrients. Other planets have different soil, atmosphere, air composition and temperature. So we need to create a habitat where plants can experience an environment that is similar to earth, so that they can survive and thrive. 
+
+The ISS is one such habitat. ISS provides an atmosphere, stable temperature and protection against solar radiation, but while ISS takes care of some of the issues of space, the station is not perfect and plants still experience new stressors in this strange environment.
+
+Research around space botany is all about how these stressors affect plants and what we can do to minimize the problems.
+
+First let's discuss the basic needs of plants and how ISS provide these needs. Then let's talk about the stresses that can't be protected against.
+
+\subsection{A plants basic needs - and how ISS provides for them}
+
+\subsubsection{Sunlight}
+Plants needs sunlight in order to live and grow. On ISS this is substituted by big adjustable LED lamps in the VEGGIE module.
+
+\subsubsection{Air}
+A plant needs an atmosphere with CO2 for photosynthesis and Oxygen for respiration. This is part of the life support system on ISS, called the Environmental Control and Life Support System (ECLSS). ECLSS provides or controls atmospheric pressure, fire detection (and suppression), oxygen levels, waste management and water supply. The highest priority for the ECLSS is the ISS atmosphere, but the system also collects, processes, and stores waste and water produced and used by the crew—a process that recycles fluid from the sink, shower, toilet, and condensation from the air. \cite{eclss}
+
+\subsubsection{Nutrients}
+A plant obviously needs nutrients. The common approach is to use 'soil bags', which is just what it sounds. It has soil and seeds, which gets activated when the bag gets in contact with water.
+
+\subsection{Stressors in space - What we can't protect the plants against}
+There are a few things we cannot yet protect our plants against. These are microgravity, ionizing radiation and oxidative stress. \cite{space-stressors}
+
+\subsubsection{Microgravity}
+A change in gravity affects humans in a big way. Muscles starts to disappear, bones get less dense and we even lose our ability to walk after a long duration in space. \cite{jelly-legs}
+
+This change in gravity also affects plants, and the first challenge to space agriculture is how to understand how plants grow in microgravity. And while root development seems to works fine without gravity \cite{root-of-plant-growth}, there are some issues with hydrodynamics. The water can have problems distributing through the growth media and air entrapment may interfere with water retention. In other words, microgravity makes it harder for the plant to absorb water and nutrients. To fix this problem, the porous zeolite has been used in the growth media, and the idea is that the water will distribute better through cappilary forces. \cite{microgravity-presentation}
+
+\subsubsection{"Ionizing Radiation/Galactic Cosmic Rays"}
+Galactic cosmic rays are a type of high-energy radiation that mainly comes from outside the solar system from an exploding star. Protons (and some other elements) are accelerated to the speed of light. When these particles then hits organisms they damage their molecular structure.
+
+The earth's big magnetic field protects us against this radiation, as it deflects the incoming radiation. But the earth's magnetic field comes form earth's size, and it cannot be replicated on a small space station. And unlike solar radiation, cosmic rays are hard to defend against with physical walls.
+
+Right now there are no good protection against cosmic rays and they pose a big problem for both astronauts and plants.
+
+\subsubsection{Oxidative Stress}
+Even though there is an atmosphere system on ISS, it seems that when plants are grown on ISS they don't get enough air, and they then exhibit a stress response in their genes and proteins. The causes of this are currently under investigation. \cite{induced-ros}
+
+\section{History of plants in space}
+
+\subsection{1946 - Seeds and fruit flies experiences space flight}
+NASA sends seeds and fruit flies into spaceflight with repurposed V-2 rockets. No plant growth, but this was the first time plants was subject to spacelike conditions. The purpose of these early efforts was to investigate a concern with cosmic radiation exposure to living tissue. \cite{v2-space}
+
+\subsection{1971 - Seeds flown around the moon}
+500 tree seeds of different species were flown around the moon and back to earth on Apollo 14. The seeds were planted on earth, but no changes in growth was detected. \cite{moon-trees}
+
+\subsection{1973 - First space lab studies on the effects of light and gravity on rice plants}
+NASA collaborates with a student project and studies rice plants in Skylab, one of the oldest space stations. The plant growth chamber used several light filters with different amount of light transmittance, having five windows with changing transmittance, two windows with no light transmittance, and one window with no filter. 
+
+This experiment addressed a fundamental questions of how microgravity affects the process of germination and root growth, and what illumination level is required to provide a phototropic response. \cite{first-space-studies}
+
+\subsection{1982 - First plant to complete a lifecycle in space }
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{salyut.jpg}
+    \caption{
+        \textit{The Fiton-3 micro greenhouse was a growth system aboard Salyut 7 starting in 1982. Image from Astrobotany \cite{astro-salyut}}.
+    }
+    \label{fig:x astro-salyut}
+\end{figure}
+
+The plant \textit{arabidopsis thaliana} completes the first lifecycle of a plant in space. The process took place on Salyut 7, inside a Fiton-3 greenhouse. One lifecycle includes growing, flowering, and producing seeds. 
+
+The Fiton-3 greenhouse had daylight-like fluorescent light, transparent walls, growth containers with an agar-nutrient medium, ventilation to keep the environment sterile, and a system for sowing seeds in microgravity. Salyut 7 also had a centrifuge, which was used to examine lettuce under 0.01g, 0.1g and 1g. \cite{salyut-7}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{thaliana.jpg}
+    \caption{
+        \textit{Arabidopsis thaliana is a plant that is commonly used for experiments because of it's small size, fast growth and small genome. Image from Wikipedia \cite{thaliana-image}}.
+    }
+    \label{fig:x astro-salyut}
+\end{figure}
+
+\subsection{1990 - Space habitat SVET installed on spacecraft Mir}
+SVET was used to grow several plants, such as \textit{dwarf wheat} and \textit{Brassica rapa}. With SVET, important variables could be controlled and measured, like real-time plant transpiration and gas exchange. This data was telemetered to earth daily, so that the growth could be monitored non-destructively (no harvest) on ground. Researchers have previously shown that there is a significant difference between the water relations of wet porous substrates in microgravity and on Earth. With SVET, this was successfully monitored and accounted for, and the greenhouse provided a good root environment in microgravity.
+
+The main goal of SVET was to investigate the effects of microgravity. Specifically how it affects the productivity of a crop plant, how the chemistry and strucure changes in plant tissue, and how the plants general processes changes (such as photosynthesis and water use).
+
+The crew on Mir made daily observations and photographs. Plant samples and were returned with the Shuttle, and divided between U.S. and Russian investigators.
+
+The understanding of plants in microgravity was greatly improved. For example, the results suggested that plant growth is not adversely affected by microgravity if you have a good environment. And the results showed that the knowledge and instrumentation to provide a good root environment in microgravity had been developed. An interesting observation was that the wheat was sterile (no seeds could be found). \cite{svet}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{svet-image-1.jpg}
+    \caption{
+        \textit{Svet growth chamber with four basic units: plant growth chamber, root module, light and control unit, gas exchange measurement system. Image from NASA \cite{lada-image-1}}.
+    }
+    \label{fig:x svet-image-label-1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{svet-image-2.jpg}
+    \caption{
+        \textit{Dwarf wheat grown inside the Svet growth chamber. Image from NASA \cite{svet-image-2}}.
+    }
+    \label{fig:x svet-image-label-2}
+\end{figure}
+
+\subsection{2002 - Lada greenhouse gets installed on ISS}
+Lada is a russian plant growth system that was created for long-term employment on the International Space Station and is currently the oldest greenhouse system in use on ISS. 
+
+It is designed to be deployed on a cabin wall, with the purpose of providing the crew with therapeutic views and easy access to the plants. Lada has two vegetation modules which are independently controlled, which allows for comparisons between different procedures or treatments. The root zone sensors recieved extra attention, and the sensors included substrate moisture probes, mini-tensiometers, and substrate oxygen sensors.
+
+The focus of the experiments was on three themes: substrate management physics, plant production and quality, and crew-plant interaction studies.
+
+Since 2003 Russian cosmonauts have been eating half of their crop while the other half goes towards further research. \cite{lada-1} \cite{lada-2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{lada-image-1.jpg}
+    \caption{
+        \textit{Aboard the space station, the Expedition 8 crew, C. Michael Foale (left) and Alexander Kaleri, pose beside pea plants growing in the Lada greenhouse. Image from NASA \cite{lada-image-1}}.
+    }
+    \label{fig:x lada-image-label-2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{lada-image-2.jpg}
+    \caption{
+        \textit{Plants grow inside one of the Lada greenhouse units, located in the Zvezda Service Module of the space station. Image from NASA \cite{lada-image-2}}.
+    }
+    \label{fig:x lada-image-label-2}
+\end{figure}
+
+
+\subsection{2006 - European Modular Cultivation System (EMCS)}
+EMCS is an ESA experiment facility that is primarily dedicated to studying plant biology in a reduced gravity environment. It supports the cultivation, stimulation, and crew-assisted operation of biological experiments under controlled conditions (e.g. temperature, atmospheric composition, water supply, illumination, observation, and gravity). To make studies in different gravities, EMCS has two centrifuges which can provide 0.001 g to 2.0 g, or microgravity level when not rotating. Thus, experiments can be made with two control groups that has different centrifuge speeds. 
+
+It was launched to ISS in 2006 and was part of the US Destiny Laboratory. After two years it was transferred to ESA’s Columbus Laboratory where it is still maintained and can service experiments.
+
+EMCS has performed multi-generation (seed-to-seed) experiments and has studied the effects of gravity and light on early development and growth, as well as the influence of different wavelengths of light in plant phototropism and perception and signal transduction in plant tropism. \cite{EMCS}
+
+\subsection{2012 - Sunflower blooms on ISS}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{sunflower-image.jpg}
+    \caption{
+        \textit{Sunflower blooms on ISS in 2012. Photo by Don Pettit. \cite{sunflower}. Image from NASA \cite{sunflower-image}}.
+    }
+    \label{fig:x sunflower-image}
+\end{figure}
+
+\subsection{2014 - The VEGGIE plant habitat is lanched to ISS}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/veggie-image-1.jpg}
+    \caption{
+        \textit{Veggie Plant Growth System Activated on International Space Station.  Image from NASA \cite{veggie-image-1}.
+    }}
+    \label{fig:x veggie-image-1}
+\end{figure}
+
+'Veggie' is a plant growth system developed by NASA and ORBITEC. It is capable of producing salad-type crops to provide the crew with a nutritious and safe source of fresh food, and also works as a tool for relaxation and recreation. Veggie is designed for crew interaction, to enjoy the plants as they are growing and for the crew to experiment with their own projects.
+\cite{veggie-1}
+
+Veggie was installed on ISS in 2014 and is currently still being used. Dr. Gioia Massa, who is the NASA science team leader for Veggie, sees veggie as the first steps towards a bioregenerative food production system for the space station and long-duration exploration missions. Her hopes are that Veggie eventually will enable the crew to regularly grow and consume fresh vegetables.
+
+The first usage was in may 2014 when the crew from Expedition 40 inserted a root mat and six plant pillows, each containing 'Outredgeous' red romain lettuce seeds. The lettuce was later harvested, frozen and sent back to Earth for tests. Expedition 44 members became the first to eat plants from Veggie in august 2015, when their crop of red romaine was harvested. \cite{veggie-2}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/veggie-image-2.jpg}
+    \caption{
+        \textit{ Three different varieties of plants growing in the Veggie plant growth chamber on the International Space Station were harvested this morning.. Image from NASA \cite{veggie-image-2}.
+    }}
+    \label{fig:x veggie-image-2}
+\end{figure}
+
+\subsection{2016 - A Zinna blooms in Veggie, on ISS}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/zinnia-image.jpeg}
+    \caption{
+        \textit{ In January 2016, a zinnia blossomed within Veggie, aboard the ISS. \cite{zinnia}. Image from NASA, Scott Kelly. \cite{zinnia-image}
+    }}
+    \label{fig:x zinnia-image-1}
+\end{figure}
+
+
+\subsection{2017 - Advanced Plant Habitat (APH) lanches to ISS}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/APH-image-1.jpg}
+    \caption{
+        \textit{This image features green Dwarf Wheat within APH. The door of the facility has been removed to show the growth chamber within. Image from NASA \cite{APH-image-1}.
+    }}
+    \label{fig:x APH-image-1}
+\end{figure}
+
+APH is the largest plant growth system yet, with a shoot height of 43cm. This enables growth of larger plants that were previously not grown on ISS due to size restrictions. APH will be able to host multigenerational studies and have a fully controllable environment for high-quality plant physiological research. While Veggie is essentially a bare-bones, customizable plant growth system, the APH will be a high performance controlled environment chamber with extensive monitoring and control systems. The APH will allow monitoring and control of all of the fundamental factors of plant growth: light, temperature, atmosphere, water and nutrients. \cite{growth-chambers-on-iss}
+
+The first goal of APH is to conduct studies on the physiology in large plants and to understand more about how these plants have evolved with gravity, and how they respond in spaceflight in the absence of gravity. This have been studied extensively on small plants, but APH will allow for studies on bigger crops. 
+
+The second goal of research from APH is about how can we efficiently grow plants to provide a safe and nutritious source of food for crews in long-duration expeditions.
+
+Two species – Wheat and Arabidopsis plants were successfully grown from seed and harvested after 30 days of growth on ISS. \cite{growth-chambers-on-iss-2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/APH-image-2.png}
+    \caption{
+        \textit{APH components. Image from NASA \cite{APH-image-2}.
+    }}
+    \label{fig:x APH-image-2}
+\end{figure}
+
+\subsection{2018 - Mission to grow tomatoes in LEO}
+In December 2018, the German Aerospace Center launched the EuCROPIS satellite into low Earth orbit. This mission carries two greenhouses intended to grow tomatoes under simulated gravities of the Moon and Mars. \cite{tomatoes}
+
+\subsection{2019 - Chang'e 4 brings seeds and insect eggs to the moon}
+In January 2019, Chang'e 4 brought a sealed biosphere with seeds and insect eggs to the moon. They wanted to test whether plants and insects could hatch and grow together in synergy. The seeds included seeds from tomatoes, potatoes, and Arabidopsis thaliana. The eggs were from silkworms.
+
+These became the first plants grown on the moon. Unfortunately, the experiment ended rather quickly, as the lunar nighttime was too cold for the experiment to survive. \cite{chang-4}
+
+\subsection{Overview of plant growth systems}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{overview-plant-systems.jpg}
+    \caption{
+        \textit{Overview of plant growth systems up until 2016. Note that Advanced Plant Habitat (APH) from NASA is missing from this overview. \cite{imageoverview}}
+    }
+    \label{fig:x overview-plant-systems}
+\end{figure}
+
+
+\subsection{Projects in 2019 and onwards}
+There are not much information about this, here is what I have found:
+\begin{enumerate}
+    \item Experiments in Veggie and APH continues.
+    \item EuCROPIS is growing tomatoes in 2019. \cite{tomatoes}
+    \item CIRiS (NTNU) is growing beans in 2021. \cite{beans}
+    \item Potatoes seems like a promosing future space vegetable, due to the potatoes growing underground and has a high energy-to-weight ratio. \cite{potatoes}
+\end{enumerate}
+
+
+
+\section{The Future}
+In this section we will look towards the future and discuss possible milestones for space agriculture. The topics will talked about step by step, starting with the ones that seem nearest time-wise and ending with the very long-term possibilities.
+
+\subsection{Continue gaining knowledge}
+We are still in a state of gaining knowledge and there are still many plants which needs to be tested and researched. We still need to try and grow plants that have more nutrition and are denser in energy. Potatoes is a plant that has high promises, but is yet to be tested in space. \cite{potatoes}
+
+\subsection{Better and bigger facilities}
+In order to speed up the research of space agriculture, we really need bigger and more facilities. Right now it takes a long time to complete just one experiment, and not many experiments can be run simultaneously.
+
+The most economical way to do this would probably be to create facilities on earth that mimics the space environment. If we manage to do this it will allow for more experiments, bigger crops and faster completion.
+
+\subsection{Genetic modification of plants}
+An interesting possibility is to modify the genetics of the plants and make them more resistant towards the stressors in space. Making plants stronger would obviously be important in space, where a small loss in harvest would be a great loss for the crew.
+
+But GMO's are controversial, with many people being sceptical about how GMO plants affect the human body. Perhaps people will be more willing to accept GMO's if it makes long-term expeditions in space possible. In any case, much research will be needed, and it will probably take a long time to study the possible side-effects of GMO's in the human body.
+
+\subsection{Build growth facilities for space}
+When we have the knowledge we need to actually build facilities that are made to grow large amounts of vegetables for consumption. These needs to be bigger than the current facilities that are only made for small-scale experiments.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{greenhouse-image-1.jpg}
+    \caption{
+        \textit{Harsh conditions on Mars mean cultivation would most likely take place in protective structures or even underground. Image from NASA \cite{greenhouse-image-1}}
+    }
+    \label{fig:x greenhouse-image-1}
+\end{figure}
+
+\subsection{"Create a sustainable life-support system for a spacecraft"}
+Imagine a system that sustainably provides food and recycles the atmosphere and bio-materials for long-term voyages. Research around this is already taking place. ESA has a project called MELISSA, which has a goal of creating a micro-ecological life support system for space. \cite{melissa}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{plants-inputs-outputs.png}
+    \caption{
+        \textit{Growing plants in space could help to provide a more habitable environment for humans, as our waste products can be used to promote plant growth, which then produces outputs useful for us. Image from AAS \cite{plants-inputs-outputs}}
+    }
+    \label{fig:x plants-inputs-outputs}
+\end{figure}
+
+\subsection{Colonization and Biodomes}
+If we ever want to colonize other planets, we need to be able to create a base where we can grow food. Since most planets are too different from earth (in atmosphere, soil and temerature), we need to create a base that has it's own life-support system where people and plants can live. Basically it's like we discussed in the previous section but bigger, and these kind of bases are often called closed ecological systems, or biodomes. \cite{biodomes}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/biodome-image-2.png}
+    \caption{
+        \textit{Illustrated base on mars. Image from SpaceX \cite{biodome-image-2}}
+    }
+    \label{fig:x biodome-image-2}
+\end{figure}
+
+While Biodomes seemes far-fetched, they may not be as far away as one might think, at least considering SpaceX has plans to setup such a base on mars in the 2024. \cite{spacex-mars}
+
+But there are a lot of difficulties in creating a biodome on mars. The problems include: cost (estimated 2 Million dollars per brick), solar radiation (Mars lacks a strong magnetic field and the atmosphere is thin), huge temperature cycles, and high internal forces needed for pressurized habitats to contain air. For comparison, it has been estimated that sixteen feet (5 meters) of Mars regolith stops the same amount of radiation as Earth's atmosphere. \cite{structure-mars}
+
+There have been some public research made into biodomes. The University of Arizona have a biodome called Biosphere 2, which is designed to research closed ecological systems. It takes up an area of 1.27 hectare and is the largest closed system on earth. However, it has only been tried twice, first between 1991 to 1993 and second from march to september in 1994, where plants, humans, and other animals lived inside. Both times the system ran into problems with low amounts of oxygen and food.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/biodome-image-1.jpg}
+    \caption{
+        \textit{View of Biosphere 2, Habitat and Lung. The habitat is where the crew lived during the mission. The lung is what maintains air pressure inside the structure. Image from Wikipedia \cite{biodome-image-1}}
+    }
+    \label{fig:x biodome-image-1}
+\end{figure}
+
+It's easy to be sceptical considering the difficulties involved in creating a biodome. Not only because of the engineering difficulties, but also because of the potential psychological problems of living in such a different world (like mars, for example). But I am hopeful and excited to see that there are plans to make colonization and biodomes a reality. We will have to wait and see, and hope for the best.
+
+
+\subsection{Terra-forming other planets}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{images/terraforming-image.jpg}
+    \caption{
+        \textit{An artist's conception shows a terraformed Mars in four stages of development. Image from Wikipedia \cite{terraforming-image}}
+    }
+    \label{fig:x terraforming-image}
+\end{figure}
+
+Terra-forming is the concept of turning a "dead" planet into something resembling earth, with water, plants, and an ecosystem that creates an atmosphere with breathable air. After a planet (like mars) is terraformed, you would not need biodomes anymore, because the atmosphere and ecosystem would protect you just like earth's does. Terra-forming is thus the obvious next step from biodomes.
+
+Making mars terra-formed, for example, is highly speculative, but one way that has been suggested is to melt mars poles with thermonuclear explosions in order to release CO2. This would raise the atmospheric pressure to 1/3 of earth's, and raise the temperature enough that CO2 won't freeze again. \cite{terraforming} \cite{terraforming-2}
+
+It is a great and inspiring idea to terra-form mars. It might not be feasible, but it is fun to think about.
+
+\section{Summary/Conclusion}
+A lot have happened since seventy years ago when the first seed experienced spaceflight. Over 20 plant growth chambers have been built, each getting more and more advanced. The early chambers were concerned only with being able to cultivate plants in space. The next milestone was to study how plants grow in space, with specific attention to how microgravity affect plant orientation, germination, root formation and seed production. This is still being studied, but in recent research there has been a focus on plant-human interaction, growing edible plants (food crops), and studying plants as part of bioregenerative life-support systems. In the latest growth systems we have seen seed-to-seed developments of plants such as the sunflower and dwarf wheat, and in the coming years we will see what happens when tomatoes grows in LEO. Basic plant science is still required to better understand plant development in space, especially for food crops. But we are steadily advancing and it is exciting to see the switch to growing plants for consumption in the recent years. 
+
+So far, plants have grown fine in microgravity and has also been safe to eat. It certainly seems that space agriculture is only limited by the size of the growth systems and the speed of the experiments. I believe the next important steps will be to create larger growth habitats that truly supports and sustains the crews diet. In order to speed up this development, I believe it would be a good idea to try and create labs with space-like conditions here on earth, where growth systems can be tested. If possible, this would make it easier, cheaper, and faster to test concept and ideas.
+
+Plants are not just important as food. They can recycle the atmosphere, help with waste water, and provide pure water through transpiration. As future space expeditions needs sustainable life-support systems, it will be interesting to see how plants play its part in these systems. Future plant growth system will probably be incorporated in this larger context.
+
+The field of space agriculture is still new, but we may see fast development in the comping years as NASA wants send a crew mars before 2030 and SpaceX wants to send a crew in 2024. For these long-duration expeditions, sustainable plant growth systems and Biodomes may play an important part. It will be exciting to see what happens in the next 10 years.
+
+
+\printbibliography
+\end{document}
